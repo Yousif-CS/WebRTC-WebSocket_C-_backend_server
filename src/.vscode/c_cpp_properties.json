@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "WebRTCProject",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/WebRTCsrc/include/webrtc/api/**",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/WebRTCsrc/include/webrtc/api/audio_codecs/*",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/WebRTCsrc/include",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/websocketpp/websocketpp",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/websocketpp",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/boost/boost_1_73_0",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/src",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/jsoncpp/include",
+                "/home/yousif/Coding/RedBack/Docker/WebRTCC++/jwt-cpp/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
